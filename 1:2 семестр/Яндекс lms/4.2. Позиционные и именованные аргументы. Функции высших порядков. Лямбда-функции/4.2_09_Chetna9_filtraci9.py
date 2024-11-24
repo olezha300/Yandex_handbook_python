@@ -1,0 +1,1 @@
+print(*filter(lambda x: sum([int(y) for y in str(x)]) % 2 == 0, (32, 64, 128, 256, 512)))
